@@ -156,7 +156,7 @@
                     <li><a href="#servicos" id="link-servicos">Serviços</a></li>
                     <li><a href="#contato" id="link-contato">Contato</a></li>
                     <li><a href="#sobre-nos" id="link-sobre">Sobre Nós</a></li>
-                    <li><a href="howto.html" id="link-facaseu">Faça o seu</a></li> 
+                    <li><a href="#facaseu" id="link-facaseu">Faça o seu</a></li> 
                 </ul>
             </nav>
         </div>
@@ -246,6 +246,14 @@
         linkSobre.addEventListener('click', function(e) {
             e.preventDefault();
             modalSobre.style.display = 'block';
+        });
+
+        const linkFacaseu = document.getElementById('link-facaseu');
+        const modalFacaseu = document.getElementById('modal-facaseu');
+
+        linkFacaseu.addEventListener('click', function(e) {
+            e.preventDefault();
+            modalFacaseu.style.display = 'block';
         });
 
         // Função para fechar o modal ao clicar no botão de fechar (X)

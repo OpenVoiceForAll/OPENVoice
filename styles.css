@@ -130,6 +130,9 @@ nav ul li a:hover {
     margin-right: 20px; 
 }
 
+p{
+    text-align: center;
+}
 h1 {
     display: inline-block; 
     vertical-align: middle; 
